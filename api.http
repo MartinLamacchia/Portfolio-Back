@@ -1,0 +1,10 @@
+### Envio de mensaje
+POST http://localhost:3001/contact/message
+Content-Type: application/json
+
+{
+  "name": "Martin",
+  "phone": "1162531640",
+  "email": "martinLama3@gmail.com",
+  "message": "Hola queria contactarte para que hagas una pagina web"
+}
