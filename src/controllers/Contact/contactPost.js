@@ -1,5 +1,5 @@
-const Contact = require("../models/Contact");
-const transporter = require("../config/nodemailer");
+const Contact = require("../../models/Contact");
+const transporter = require("../../config/nodemailer");
 
 const newContact = async (req, res) => {
   const { email, name, phone, message } = req.body;

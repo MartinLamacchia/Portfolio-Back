@@ -8,3 +8,6 @@ Content-Type: application/json
   "email": "martinLama3@gmail.com",
   "message": "Hola queria contactarte para que hagas una pagina web"
 }
+
+### Subir proyectos
+POST http://localhost:3001/projects
